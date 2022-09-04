@@ -1,80 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Time tracking dashboard</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Own css -->
+    <link rel="stylesheet" href="./styles.css" />
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <title>Frontend Mentor | Time tracking dashboard</title>
+  </head>
+  <body>
+    <!-- MAIN CONTAINER -->
+    <main class="main-container">
+      <!-- SECTION A -->
+      <section class="section-a">
+        <img
+          class="section-a__picture"
+          src="./images/image-jeremy.png"
+          alt="image jeremy"
+        />
+        <div>
+          <p class="section-a__text">Report for</p>
+          <h2 class="section-a__name">Jeremy Robson</h2>
+        </div>
+      </section>
+      <!-- SECTION B  -->
+      <section class="section-b">
+        <!-- CARD -->
+        <div class="section-b-card">
+          <div class="section-b-card__back">
+            <img src="./images/icon-work.svg" alt="icon work" />
+          </div>
+          <div class="section-b-card__fore">
+            <div>
+              <p>Work</p>
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </div>
+            <div>
+              <div>32hrs</div>
+              <div>Last Week - 36hrs</div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD -->
+        <div class="section-b-card">
+          <div class="section-b-card__back">
+            <img src="./images/icon-work.svg" alt="icon work" />
+          </div>
+          <div class="section-b-card__fore">
+            <div>
+              <p>Work</p>
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </div>
+            <div>
+              <div>32hrs</div>
+              <div>Last Week - 36hrs</div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD -->
+        <div class="section-b-card">
+          <div class="section-b-card__back">
+            <img src="./images/icon-work.svg" alt="icon work" />
+          </div>
+          <div class="section-b-card__fore">
+            <div>
+              <p>Work</p>
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </div>
+            <div>
+              <div>32hrs</div>
+              <div>Last Week - 36hrs</div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD -->
+        <div class="section-b-card">
+          <div class="section-b-card__back">
+            <img src="./images/icon-work.svg" alt="icon work" />
+          </div>
+          <div class="section-b-card__fore">
+            <div>
+              <p>Work</p>
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </div>
+            <div>
+              <div>32hrs</div>
+              <div>Last Week - 36hrs</div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD -->
+        <div class="section-b-card">
+          <div class="section-b-card__back">
+            <img src="./images/icon-work.svg" alt="icon work" />
+          </div>
+          <div class="section-b-card__fore">
+            <div>
+              <p>Work</p>
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </div>
+            <div>
+              <div>32hrs</div>
+              <div>Last Week - 36hrs</div>
+            </div>
+          </div>
+        </div>
+        <!-- CARD -->
+        <div class="section-b-card">
+          <div class="section-b-card__back">
+            <img src="./images/icon-work.svg" alt="icon work" />
+          </div>
+          <div class="section-b-card__fore">
+            <div>
+              <p>Work</p>
+              <img src="./images/icon-ellipsis.svg" alt="icon ellipsis" />
+            </div>
+            <div>
+              <div>32hrs</div>
+              <div>Last Week - 36hrs</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" target="_blank">Pablo Belda</a>.
+    </footer>
+  </body>
 </html>
