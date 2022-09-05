@@ -1,3 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: hsl(226deg, 43%, 10%);
+  color: hsl(236deg, 100%, 87%);
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.main-container {
+  border: 1px solid transparent;
+  width: 333px;
+  height: 1305px;
+  margin: 80px auto 90px;
+}
+
+.section-a {
+  position: relative;
+}
+.section-a .article-1 {
+  background-color: hsl(246deg, 80%, 60%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  height: 134px;
+  width: 100%;
+  border-radius: 16px;
+  position: absolute;
+  z-index: 1;
+}
+.section-a .article-2 {
+  position: absolute;
+  top: 70px;
+  background-color: hsl(235deg, 46%, 20%);
+  display: flex;
+  align-items: flex-end;
+  padding: 23px;
+  justify-content: space-around;
+  height: 134px;
+  width: 100%;
+  border-radius: 16px;
+}
+.section-a__picture {
+  width: 70px;
+  height: 70px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+.section-a__text {
+  font-size: 1em;
+  font-weight: 100;
+  padding-bottom: 5px;
+}
+.section-a__name {
+  font-weight: 100;
+}
+.section-a__button {
+  font-size: 1.2em;
+  color: hsl(235deg, 45%, 61%);
+}
+.section-a__button--select {
+  color: hsl(236deg, 100%, 87%);
+}
+.section-a__button:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+.section-b {
+  margin-top: 228px;
+}
+
+.section-b-card {
+  position: relative;
+  margin-bottom: 120px;
+}
+.section-b-card__back {
+  background-color: hsl(15deg, 100%, 70%);
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 15px;
+  overflow: hidden;
+  border-radius: 16px;
+}
+.section-b-card__back img {
+  margin-top: -11px;
+}
+.section-b-card__fore {
+  position: absolute;
+  width: 100%;
+  height: 121px;
+  top: 40px;
+  background-color: hsl(235deg, 46%, 20%);
+  border-radius: 16px;
+  z-index: 1;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.section-b-card__fore div:nth-child(1) {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-bottom: 0;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+.section-b-card__fore div:nth-child(1) img {
+  width: 20px;
+  height: 3px;
+}
+.section-b-card__fore div:nth-child(2) {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 10px;
+}
+.section-b-card__fore div:nth-child(2) p:nth-child(1) {
+  font-size: 2em;
+}
+.section-b-card__fore:hover {
+  cursor: pointer;
+  background-color: hsl(246deg, 80%, 60%);
+}
 
 /*# sourceMappingURL=styles.css.map */
